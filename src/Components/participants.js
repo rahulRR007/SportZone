@@ -1,0 +1,35 @@
+// src/data/participants.js
+
+export const participants = [
+    { id: 1, sno: 1, name: 'John Doe', tournament: 'Soccer', gender: 'Male', teamId: 'A1' },
+    { id: 2, sno: 2, name: 'Jane Smith', tournament: 'Basketball', gender: 'Female', teamId: 'B1' },
+    { id: 3, sno: 3, name: 'Alice Johnson', tournament: 'Tennis', gender: 'Female', teamId: 'C1' },
+    { id: 4, sno: 4, name: 'Bob Brown', tournament: 'Cricket', gender: 'Male', teamId: 'D1' },
+    { id: 5, sno: 5, name: 'Charlie Davis', tournament: 'Swimming', gender: 'Male', teamId: 'E1' },
+    { id: 6, sno: 6, name: 'Diana Evans', tournament: 'Badminton', gender: 'Female', teamId: 'F1' },
+    { id: 7, sno: 7, name: 'Edward Green', tournament: 'Volleyball', gender: 'Male', teamId: 'G1' },
+    { id: 8, sno: 8, name: 'Fiona Harris', tournament: 'Table Tennis', gender: 'Female', teamId: 'H1' },
+    { id: 9, sno: 9, name: 'George Ives', tournament: 'Hockey', gender: 'Male', teamId: 'I1' },
+    { id: 10, sno: 10, name: 'Hannah Jackson', tournament: 'Rugby', gender: 'Female', teamId: 'J1' },
+    { id: 11, sno: 11, name: 'Ian King', tournament: 'Athletics', gender: 'Male', teamId: 'K1' },
+    { id: 12, sno: 12, name: 'Julia Lee', tournament: 'Gymnastics', gender: 'Female', teamId: 'L1' },
+    { id: 13, sno: 13, name: 'Kevin Moore', tournament: 'Baseball', gender: 'Male', teamId: 'M1' },
+    { id: 14, sno: 14, name: 'Laura Nelson', tournament: 'Boxing', gender: 'Female', teamId: 'N1' },
+    { id: 15, sno: 15, name: 'Mike Owen', tournament: 'Martial Arts', gender: 'Male', teamId: 'O1' },
+    { id: 16, sno: 16, name: 'Nina Perez', tournament: 'Wrestling', gender: 'Female', teamId: 'P1' },
+    { id: 17, sno: 17, name: 'Oscar Quinn', tournament: 'Cycling', gender: 'Male', teamId: 'Q1' },
+    { id: 18, sno: 18, name: 'Paula Roberts', tournament: 'Golf', gender: 'Female', teamId: 'R1' },
+    { id: 19, sno: 19, name: 'Quincy Scott', tournament: 'Archery', gender: 'Male', teamId: 'S1' },
+    { id: 20, sno: 20, name: 'Rachel Taylor', tournament: 'Shooting', gender: 'Female', teamId: 'T1' },
+    { id: 21, sno: 21, name: 'Steve Underwood', tournament: 'Surfing', gender: 'Male', teamId: 'U1' },
+    { id: 22, sno: 22, name: 'Tina Vance', tournament: 'Karate', gender: 'Female', teamId: 'V1' },
+    { id: 23, sno: 23, name: 'Umar White', tournament: 'Skating', gender: 'Male', teamId: 'W1' },
+    { id: 24, sno: 24, name: 'Vicky Xander', tournament: 'Fencing', gender: 'Female', teamId: 'X1' },
+    { id: 25, sno: 25, name: 'Will Young', tournament: 'Rowing', gender: 'Male', teamId: 'Y1' },
+    { id: 26, sno: 26, name: 'Xena Zane', tournament: 'Kayaking', gender: 'Female', teamId: 'Z1' },
+    { id: 27, sno: 27, name: 'Yusuf Adams', tournament: 'Canoeing', gender: 'Male', teamId: 'AA1' },
+    { id: 28, sno: 28, name: 'Zara Baker', tournament: 'Skiing', gender: 'Female', teamId: 'BB1' },
+    { id: 29, sno: 29, name: 'Adam Clark', tournament: 'Snowboarding', gender: 'Male', teamId: 'CC1' },
+    { id: 30, sno: 30, name: 'Betty Dean', tournament: 'Mountaineering', gender: 'Female', teamId: 'DD1' }
+  ];
+  

@@ -1,0 +1,131 @@
+/* ContactUs.css */
+
+/* Background and container styling */
+.MuiContainer-root {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden; /* Ensure horizontal overflow is hidden */
+  }
+  
+  /* Base styling for animations */
+  .animate-fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  .animate-slide-in {
+    opacity: 0;
+    animation: slideIn 1s forwards;
+  }
+  
+  /* Typography and Link styling */
+  .MuiTypography-h2,
+  .MuiTypography-h4,
+  .MuiTypography-body1,
+  .MuiLink-root,
+  .MuiButton-contained {
+    font-weight: bold; /* Make text bold */
+    color: #000000;    /* Set text color to black */
+  }
+  
+  /* Icon styling */
+  .icon {
+    margin-right: 0.5rem; /* Space between icon and text */
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Start from bottom */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%) translateY(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0) translateY(0);
+    }
+  }
+  
+  /* Form styling */
+  .MuiFormControl-root {
+    margin-bottom: 1rem;
+  }
+  
+  /* Button styling */
+  .MuiButton-contained {
+    background-color: #1976d2;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .MuiButton-contained:hover {
+    background-color: #155a8a;
+  }
+  
+  /* Grid item styling */
+  .MuiGrid-item {
+    padding: 1rem;
+  }
+  
+  /* Flex layout for icons and text */
+  .icon-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Address section styling */
+  .address-info {
+    font-weight: bold; /* Make text bold */
+    color: #000000; /* Set text color to black */
+    margin-top: 1rem; /* Add space above the text */
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Phone number section styling */
+  .phone-info {
+    font-weight: bold; /* Make text bold */
+    color: #000000; /* Set text color to black */
+    margin-top: 1rem; /* Add space above the text */
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Specific styling for phone numbers */
+  .phone-number {
+    color: #007bff; /* Set phone number color to blue */
+  }
+  
+  /* Additional styling for company image */
+  .company-section {
+    margin-top: 2rem;
+  }
+  
+  .company-title {
+    display: flex;
+    align-items: center;
+    font-weight: bold; /* Make title bold */
+    color: #000000; /* Set title color to black */
+  }
+  
+  .company-image {
+    margin-top: 1rem;
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Ensure the company section and image fit properly */
+  .company-content {
+    text-align: center; /* Center align the image */
+  }
+  

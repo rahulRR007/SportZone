@@ -1,0 +1,70 @@
+ /* Footer styles */
+footer {
+  background-color: #219d9d; /* Fallback color / / Corrected image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #020100;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative; /* Change to relative positioning */
+  margin-top: 2rem; /* Space between content and footer */
+}
+
+/* Ensure footer links inherit color and have proper hover effects */
+footer a {
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Remove underline by default */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Ensure the footer list styling is clean */
+footer ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+/* Style social icons within the footer */
+footer .social-icons {
+  display: flex;
+  justify-content: center; /* Center social icons horizontally */
+  gap: 8px; /* Space between icons */
+  margin-top: 1rem; /* Space above the social icons */
+}
+
+footer .social-icons img {
+  width: 24px; /* Set a fixed width for social icons */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+footer .social-icons img:hover {
+  transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
+
+/* Style for secondary buttons in footer */
+footer .MuiButton-containedSecondary {
+  background-color: #28a745; /* Custom green color for secondary button */
+  color: #0a0101; /* White text color */
+  margin-left: 16px; /* Adjust the value to move the button to the right */
+}
+
+footer .MuiButton-containedSecondary:hover {
+  background-color: #218838; /* Darker green for hover effect */
+}
+
+/* Ensure footer stays at the bottom of the page when content is short */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.mainContent {
+  padding-bottom: 5rem; /* Add padding at the bottom to ensure space for the footer */
+}
